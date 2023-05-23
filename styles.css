@@ -72,8 +72,9 @@ input{
     
 }
 #submit:hover{
-    background-color : #0984e3;
+    background-color : lightgreen;
     transform: scale(1.25);
+
 }
 #showScore{
     background-color : #dfe6e9;
