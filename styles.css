@@ -17,17 +17,22 @@ html{
   min-height : 100vh;
   display : grid;
   place-items : center;
-  background-color :  hsl(206,92%,94%);
+  /* background-color :  hsl(206,92%,94%); */
+  background:
+        /* linear-gradient(red, transparent), */
+        /* linear-gradient(to top left, lime, transparent), */
+        linear-gradient(to top right, lightblue, seagreen);
 
 }
 
 .inner-div{
-    width : 40vw;
+    width : 50vw;
     background-color: #fff;
-    padding : 3rem 8rem;
+    padding : 3rem 4rem;
     border-radius: 1rem;
     box-shadow : 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
 }
+
 .inner-div h2{
     font-size : 3.5rem;
     font-weight :400;
@@ -35,8 +40,10 @@ html{
 }
 .inner-div li{
     font-size : 2rem;
-    margin-top : 1.5 rem;
     list-style : none;
+}
+li{
+    margin-top: 0.5rem;
 }
 input{
     cursor: pointer;
@@ -55,8 +62,18 @@ input{
     margin-top: 4rem;
     cursor : pointer;
 }
-#submit :hover{
+
+
+
+#submit{
+    padding: 0.5rem;
+    margin-top: 2rem;
+    cursor:pointer;
+    
+}
+#submit:hover{
     background-color : #0984e3;
+    transform: scale(1.25);
 }
 #showScore{
     background-color : #dfe6e9;
